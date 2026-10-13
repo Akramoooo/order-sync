@@ -1,0 +1,15 @@
+{
+  "name": "orders-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini order synchronizer: fetch, normalize phones, dedupe, expose /result",
+  "type": "commonjs",
+  "scripts": {
+    "sync": "node scripts/run-sync.js",
+    "test": "node --test test/*.test.js",
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
